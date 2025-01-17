@@ -7,3 +7,35 @@
   font-weight: 400;
   font-style: normal;
 }
+/* Shared styles */
+.display-flex{
+    display: flex;
+}
+.dark2{
+    color: #424242;
+}
+.dark3{
+    color: #727272;
+}
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* Header styles */
+
+/* Navbar related styles */
+.navbar{
+    justify-content: space-between;
+}
+.nav-items{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-links{
+    text-decoration: none;
+    font-weight: 500px;
+    font-size: 18px;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0px auto;
+}
